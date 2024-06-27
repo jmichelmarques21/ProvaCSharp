@@ -1,0 +1,20 @@
+criação de novo usuario
+POST: https://localhost:5001/Autenticador/register
+
+{
+  "User": "jean",
+  "Email": "jean@jean.com",
+  "Senha": "123"
+}
+
+
+login e geração do token
+POST: https://localhost:5001/Autenticador/login
+
+{
+  "Email": "jean@jean.com",
+  "Senha": "123"
+}
+
+token gerado:
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE3MTk1MzA0MDgsImV4cCI6MTcxOTUzNDAwOCwiaWF0IjoxNzE5NTMwNDA4fQ.qUy0KACgHmg8RZCEH5ac0xlYeyd7YT4YOMxZgqWzDpU"}

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProvaCSharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6c8ff8b588d6df46a324d59f2369ca2e1741fa5")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProvaCSharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProvaCSharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

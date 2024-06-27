@@ -1,0 +1,43 @@
+UNIVERSIDADE POSITIVO
+TÓPICOS ESPECIAIS EM DESENVOLVIMENTO DE SISTEMAS
+AVALIAÇÃO SEMESTRAL
+Nesta avaliação, você desenvolverá uma aplicação capaz de manter dados sobre serviços.
+Importante: O MySql será usado como banco dedados
+Sobre a entrega:
+Prazo: 24/06/2024, 21h50 impreterivelmente
+Entregue os arquivos .cs implementados no Black Board da Universidade Positivo e as requisições (Postman
+ou similar) utilizadas para que o seus programa rode
+Nota: 5,0 pontos no máximo
+Utilize o C# e o VSCode para implementar o que se pede
+Você deverá implementar uma API que permita:
+1. Login de usuário com geração de token JWT
+a. Implementar uma rota POST /login que receba credenciais de usuário (e.g., email e senha) e
+retorne um token JWT caso as credenciais sejam válidas.
+b. O token JWT será utilizado para autenticação nas demais rotas.
+2. Rota autenticada para gravar dados de um novo serviço
+a. Implementar uma rota POST /servicos que permita a criação de um novo serviço.
+b. A rota deve ser autenticada, ou seja, deve exigir um token JWT válido.
+c. O serviço deve possuir os seguintes atributos:
+Nome (string)
+Preco (decimal)
+Status (True/False)
+3. Rota autenticada para atualizar os dados dos serviços
+a. Implementar uma rota que permita a atualização dos dados de um serviço existente.
+b. A rota deve ser autenticada, ou seja, deve exigir um token JWT válido.
+c. A rota deve permitir a atualização dos atributos do serviço (Nome, Preco, Status).
+4. Rota autenticada para consultar os dados do serviço a partir do Id
+a. Implementar uma rota GET /servicos/{id} que retorne os dados de um serviço específico a
+partir do seu ID.
+b. A rota deve ser autenticada, ou seja, deve exigir um token JWT válido.
+5. Implementar o registro autenticado de contratos
+a. Implementar uma rota autenticada POST /contratos que permita o registro de um contrato,
+onde um cliente contrata um serviço.
+b. O contrato deve possuir os seguintes atributos:
+i. ClienteId (referência a um cliente existente)
+ii. ServicoId (referência a um serviço existente)
+iii. PrecoCobrado (decimal)
+iv. DataContratacao (DateTime)
+6. Implementar uma rota para consultar todos os serviços contratados por um determinado cliente
+a. Implementar uma rota GET /clientes/{clienteId}/servicos que retorne todos os serviços
+contratados por um cliente específico.
+b. A rota deve ser autenticada, ou seja, deve exigir um token JWT válido.

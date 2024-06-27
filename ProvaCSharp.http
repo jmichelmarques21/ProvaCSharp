@@ -1,0 +1,6 @@
+@ProvaCSharp_HostAddress = http://localhost:5051
+
+GET {{ProvaCSharp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

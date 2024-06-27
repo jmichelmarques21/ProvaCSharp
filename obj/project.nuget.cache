@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "MdsTnA7o18maVRLld+iv3Q10hSfxDo/MUWMGxKwQgbnn18KLMujFuooZt9fKo92YXuUPltTxY5Sf+XC/L+zkxA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jmich\\OneDrive\\Área de Trabalho\\faculdade-3-semestre\\c#Quinta\\ProvaCSharp\\ProvaCSharp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jmich\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.6\\microsoft.aspnetcore.openapi.8.0.6.nupkg.sha512",
+    "C:\\Users\\jmich\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\jmich\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\jmich\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\jmich\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\jmich\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\jmich\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

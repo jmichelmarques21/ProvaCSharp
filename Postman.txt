@@ -18,3 +18,7 @@ POST: https://localhost:5001/Autenticador/login
 
 token gerado:
 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE3MTk1MzA0MDgsImV4cCI6MTcxOTUzNDAwOCwiaWF0IjoxNzE5NTMwNDA4fQ.qUy0KACgHmg8RZCEH5ac0xlYeyd7YT4YOMxZgqWzDpU"}
+
+criação de serviço
+POST: https://localhost:5051/servicos
+

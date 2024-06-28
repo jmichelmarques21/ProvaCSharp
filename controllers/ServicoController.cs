@@ -18,7 +18,7 @@ namespace ProvaCSharp.Controllers
             _context = context;
         }
 
-        // Rota para criar um novo serviço
+        // criar um novo serviço
         [HttpPost]
         public async Task<IActionResult> CriarServico([FromBody] Servico novoServico)
         {

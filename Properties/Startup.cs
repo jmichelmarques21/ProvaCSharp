@@ -42,12 +42,12 @@ public class Startup
                 };
             });
 
-        services.AddAuthorization(); // Adicionar serviços de autorização
+        services.AddAuthorization();
 
         services.AddControllers();
     }
 
-    // Este método é chamado em tempo de execução. Use este método para configurar o pipeline de requisição HTTP.
+   
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
     {
         if (env.IsDevelopment())

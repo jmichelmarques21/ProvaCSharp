@@ -21,7 +21,7 @@ namespace YourNamespace.Controllers
         public AutenticadorController(AppDbContext context)
         {
             _context = context;
-            _secretKey = "abcabcabcabcabcabcabcabcabcabcabc"; // Use uma chave secreta segura
+            _secretKey = "abcabcabcabcabcabcabcabcabcabcabc";
         }
 
         [HttpPost("login")]

@@ -23,9 +23,9 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
-builder.Services.AddAuthorization(); // Adicionando serviços de autorização
+builder.Services.AddAuthorization();
 
-builder.Services.AddControllers(); // Adicionando controladores
+builder.Services.AddControllers();
 
 var app = builder.Build();
 
@@ -33,6 +33,6 @@ app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.MapControllers(); // Mapear controladores
+app.MapControllers();
 
 app.Run();

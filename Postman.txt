@@ -1,5 +1,5 @@
 criação de novo usuario
-POST: https://localhost:5001/Autenticador/register
+POST: https://localhost:5051/Autenticador/register
 
 {
   "User": "jean",
@@ -9,7 +9,7 @@ POST: https://localhost:5001/Autenticador/register
 
 
 login e geração do token
-POST: https://localhost:5001/Autenticador/login
+POST: https://localhost:5051/Autenticador/login
 
 {
   "Email": "jean@jean.com",
@@ -21,4 +21,12 @@ token gerado:
 
 criação de serviço
 POST: https://localhost:5051/servicos
+
+{
+  "nome": "Serviço de Manutenção",
+  "preco": 150.50,
+  "status": true
+}
+
+criação de contrato
 
